@@ -1,0 +1,17 @@
+
+body{
+ background-color: rgb(17, 17, 34);
+ color: white;
+}
+
+*{
+    color: white;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-direction: column;
+}

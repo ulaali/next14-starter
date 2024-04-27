@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.container .table{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.table p:not(:first-child){
+    padding: 20px;
+}
+.table p span{
+  color: rgb(96, 96, 190);
+  font-size: 1.3rem;
+  font-weight: 800;
+}

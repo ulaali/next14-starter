@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(4, 4, 34);
+}
+.container .Link a{
+    text-decoration: none;
+    padding: 10px;   
+}
+
+.btn{
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+}
+.respbtn{
+    display: none;
+}
+.container .resLink a{
+    text-decoration: none;
+    padding: 10px;   
+}
+.resLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 60%;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    flex-direction: column;
+    background-color: rgb(4, 4, 34);
+    color: black;
+    z-index: 100;
+}
+
+@media  screen and (max-width:700px) {
+     .respbtn{
+        display: block;
+     }
+    .container .Link{
+    display: none; 
+}
+
+}
